@@ -132,18 +132,16 @@ i >.foresta{
 
 .left{
   width: 25%;
-  height: 350px;
+
 }
 
 .center{
   width: 44%;
-  height: 280px;
   margin: 0 3%;
 }
 
 .right{
   width: 25%;
-  height: 930px;
   background-color: rgba(0, 0, 0, 0);
 }
 
@@ -151,6 +149,42 @@ i >.foresta{
   content: "";
   display: table;
   clear: both;
+}
+
+.theme_list{
+  color: green;
+  list-style: none;
+  cursor: pointer;
+}
+
+.theme_list li:hover {
+  text-decoration: underline;
+}
+
+.element_list{
+  margin: 10px;
+}
+
+h3{
+  font-size: 150%;
+  color: #504741;
+  padding: 20px 20px;
+  display: inline-block;
+}
+#titolo_colonna_centrale{
+  text-shadow: 2px 2px lightgrey;
+}
+
+.fa-rss-square{
+  font-size: 200%;
+  color: orange;
+  border-radius: 2px;
+  margin-left: 10px;
+}
+
+.bgc > p{
+  margin: 0 20px;
+  line-height: 2em;
 }
 
 .box{
